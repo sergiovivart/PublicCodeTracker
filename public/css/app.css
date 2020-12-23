@@ -1,0 +1,338 @@
+body, html {
+    background-color: #fff;
+}
+
+/* esto para mayusculas y estilos */
+.mayo {
+  text-transform : uppercase !important;
+  border-width   : 2px !important;
+  font-weight    : 400 !important;
+  /* text-shadow    : 1px 1px 2px #000; */
+  margin         : 7px auto;
+  text-align     : center !important;
+  border-width   : 0.54rem;
+  border-radius  : 4px;
+  display        : block;
+  align-items    : center;
+}
+
+/* // los iconos de de el estado */
+.fa-check {
+  color : green !important;
+  margin-left: 3px;
+  text-shadow : 1px 1px 2px #000;
+  font-size : 1.34rem !important
+}
+
+.fa-circle-o {
+   color : orangered !important;
+   margin-left: 10px;
+   text-shadow : 1px 1px 2px #000;
+   font-size : 1.34rem !important
+}
+
+
+/* las feuntes */
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+.f_ubuntu {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.f_varela {
+  font-family: 'Varela Round', sans-serif !important;
+}
+
+/* // estos son lso estilo negenrales del panel y de los creadores de los trackers */
+
+#panel {
+  background-color: transparent !important;
+}
+
+.bug {
+  font-size: 1.3rem;  
+}
+.res {
+  font-size: 1.3rem;
+}
+.tipo,.estado {
+  text-transform: uppercase;
+}
+.captura_tracker {
+    vertical-align: middle;
+    border-style: none;
+    margin: 17px 22px; 
+    border: 1px outset #444;
+}
+
+/* // la foprma de subiur imagenes */
+#forma_up_img {
+  margin: 16px;
+  padding: 12px;
+  border-radius: 4px;
+  width: 90%;
+}
+
+#btn_solucion {
+  margin-bottom: 30px;
+}
+
+
+/* en el casod e las lias */
+/* el item de la lista */
+
+
+.bg {
+  background-color: #0fa7a794;
+  padding: 0 10px;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.item_lista {
+
+  /* las equinas */
+   border-width: 1px;
+    border-style: outset;
+    border-color: #000;
+    border-radius: 34px;
+    box-shadow:  2px 2px 1px #444;
+
+     /* colores y detalles */
+    background-color: #fff !important;
+    padding: 0px;
+    margin: 10px auto;
+    /* background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png"); */
+  
+  
+    /* // alineamiento de los itenes */
+    display : flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+.tracker {
+  margin: 10px;
+  height: 16rem;
+  min-height: 17rem;
+  max-height: 19rem;
+  box-shadow: 5px 5px 5px #000;
+  background-color: #fff !important;
+}
+
+
+.cuerpo_tracker  {
+  background-color: #fff;
+  width: 90%;
+  display : flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+/* // cas clases del .tracker */
+.alta,.media,.baja {
+  border           : 1px outset #444;
+  background-color : #fff;
+  color            : #2b272d !important;
+  text-shadow      : 1px 1px  #49505778;
+  font-weight      : 400;
+  position : relative;
+  box-shadow: 1px 1px 1px #000;
+}
+
+.alta {
+  background-color: red !important;
+
+}
+
+.media {
+   background-color: yellow !important;
+}
+.baja { 
+   background-color: grey !important;
+}
+
+/* los contenidos del tracker */
+.titulo_tracker {
+  font-size: 1.24rem;
+  color : #000 !important;
+  padding: 5px 7px;
+  text-align: left;
+
+}
+.usuario {
+  font-size: 1.67rem;
+  text-align: left;
+
+}
+
+.ususario_foto {
+  border-radius: 80%;
+  width: 60%;
+  border : 1px solid #000;
+  box-shadow: 1px 1px 2px solid #000;
+}
+.usuario_lista {
+ margin-left: 10px;
+}
+
+.estado {
+  margin: 10px;
+  font-size: 0.98rem;
+  font-weight: 400;
+}
+.estado .fa {
+  color: green !important;
+}
+.fecha {
+  font-size: 0.87rem;
+  font-weight: 400;
+  margin : 5px;
+}
+
+.link_tracker {
+  color : #000;
+  text-shadow: 1px 1px 1px #444;
+}
+
+.link_tracker:hover {
+  text-decoration: none;
+}
+
+/* // botond e ver el tracker */
+.ver_tracker {
+  width: 180px !important;
+  /* text-align: center; */
+}
+
+
+/* // el diospaly de las tiapos de sisplat  */
+.bMode {
+  background-color: #fff;
+  color : #000;
+  margin : 0 0 0 10px !important;
+  position: relative;
+  border-radius: 40px !important;
+  width: 100px;
+  font-size: 1.3rem;
+}
+
+
+/* los estilsod e lña barra de navegacion */
+#nav_user {
+  border: 1px outset #000;
+  margin-bottom: 40px;
+  background: #f9fdff !important;
+}
+
+#trigger_menu,.navbar-toggler {
+  border: 1px outset #444 !important;
+}
+
+#barra_nav_user .dropdown {
+  margin-left: 13px;
+}
+
+#barra_nav_user li > a {
+  font-size: 1.12rem;
+  color : #000;
+  font-weight: 400;
+  line-height: 45px
+}
+
+
+#barra_nav_user  img {
+  height: 50px;
+  border-radius: 100%;
+  border : 1px solid #000;
+  
+}
+
+
+/* // mensaje de bienvenidos */
+.welcome {
+  font-size: 3.75rem;
+  padding: 40px auto;
+  margin: 200px;
+  text-align: center;
+  color: #fff;
+}
+
+/* // los estilos de las formas */
+.forma {
+  width: 80%;
+  margin: 40px auto;
+}
+#formaLogin input {
+  margin-top:  10px;
+}
+
+#formaLogin button {
+  margin: 14px auto;
+  width: 200px;
+}
+
+/* // el display del .tracker */
+#display_tracker {
+  padding: 30px 7%;
+    border-radius: 12px;
+    background: #ffffffe3
+    
+}
+
+/* la forma del perfil */
+#img_perfil {
+  padding: 12px;
+  margin: 0 auto;
+  display : flex;
+  border : 1px solid #444;
+  width: 63%;
+  height: 225px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.btn_perfil {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin : 20px auto;
+  background: #fff;
+  color: #000;
+  font-size: 1.2rem;
+  text-align: center;
+  border : 1px solid #000;
+  border-radius: 10px;
+}
+
+/*el mensaje de error*/
+#error {
+  border : 1px solid #000;
+  height: 300px;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  text-align:  center;
+}
+
+#error .row {
+  /*text-align: center;*/
+  margin : 0 auto;
+}
+
+#error h5 {
+  font-size: 1.4rem;
+  color: #000;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+/* // aqui va el footer */
+#footer {
+  height           : 10rem;
+  background-color : #fff;
+  padding          : 25px 15px;
+  text-align       : center;
+  margin           : 20px auto;
+  color            : #000;
+  border           : 1px solid #000;
+  border-radius    : 6px;  
+}
